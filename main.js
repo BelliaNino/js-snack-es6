@@ -1,7 +1,54 @@
 console.log('ok');
 
 
+/*Snack 1
+Creare un array di oggetti:
+Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
+Stampare a schermo la bici con peso minore.*/
 
+const bike = [
+    {
+        type: 'Lightweight Road Bike',
+        weight: 6.5
+    },
+    {
+        type: 'Endurance',
+        weight: 7
+    },
+    {
+        type: 'Gravel Bike',
+        weight: 9.5
+    },
+    {
+        type: 'Cross-Country',
+        weight: 1.12
+    },
+    {
+        type: 'Enduro MTB',
+        weight: 13
+    },
+    {
+        type: 'Urban Bike',
+        weight: 17
+    },
+    {
+        type: 'Fitness Bike',
+        weight: 13
+    },
+    {
+        type: 'Folding Bike',
+        weight: 12.5
+    },
+    {
+        type: 'Gravel E-Bike',
+        weight: 15.5
+    },
+    {
+        type: 'E-MTB',
+        weight: 25
+    },
+]
+console.log(bike);
 
 
 
